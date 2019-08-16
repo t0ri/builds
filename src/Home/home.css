@@ -1,0 +1,28 @@
+#home #message {
+  height: 80vh;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  color: #325ca3;
+  font-size: 1.75em;
+  font-weight: 300;
+}
+
+#home h1 {
+  font-size: 3em;
+  margin-bottom: -2vh;
+}
+
+#home a {
+  color: currentColor;
+}
+
+#home #alert {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #bb3b50;
+}
+

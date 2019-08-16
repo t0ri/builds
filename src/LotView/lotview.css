@@ -1,0 +1,72 @@
+#lot-view-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#lot-view-container div#top span#back {
+  position: absolute;
+  left: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+
+  font-size: 2em;
+  color: #0193e6;
+  cursor: pointer;
+}
+
+#lot-view-container div#top span#back:hover {
+  color: #325ca3;
+}
+
+#lot-view-container div#top span#back::before {
+  content: '⬅ ';
+}
+
+#lot-view {
+  width: 50vw;
+  margin-top: 10vh;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+#lot-view img {
+  width: 50vw;
+}
+
+#lot-view h1 {
+  margin-top: 1vh;
+  margin-bottom: 0;
+  font-size: 3em;
+  color: #325ca3;
+}
+
+#lot-view #lot-link a {
+  color: #0e7835;
+  font-size: .75em;
+}
+
+
+#lot-view #lot-numbers {
+  font-size: .8em;
+  color: #3e3e3e;
+  margin: 0vh;
+}
+
+#lot-view #lot-description {
+  max-width: 70%;
+}
+
+#lot-view #lot-type {
+  margin-top: .5em;
+  font-size: 1.25em;
+  font-weight: 200;
+  color: #3e3e3e;
+}

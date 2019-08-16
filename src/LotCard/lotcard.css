@@ -1,0 +1,30 @@
+.lot-card {
+  height: auto;
+  width: 20vw;
+
+  margin: 2vh 2vw 2vh 2vw;
+  text-align: center;
+
+  border: 1px solid #b6b6b6;
+}
+
+.lot-card img {
+  width: 100%;
+}
+
+.lot-card h5 {
+  font-size: 1.5em;
+  color: #25a8e0;
+  margin: 0;
+  margin-top: 1vh;
+}
+
+.lot-card h5:hover {
+  cursor: pointer;
+  color: #325ca3;
+}
+
+.lot-card p {
+  font-size: .75em;
+  color: #3e3e3e;
+}

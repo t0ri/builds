@@ -1,33 +1,38 @@
 .App {
-  text-align: center;
-}
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100vw;
+  height: auto;
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-flow: column wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+#lot-cards-view h1 {
+  text-align: center;
+
+  font-size: 4em;
+  color: #325ca3;
+  margin-bottom: -1vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#lot-cards-view h1:hover {
+  cursor: pointer;
+  color:#2f528d;
+}
+
+#lot-cards-view h2 {
+  text-align: center;
+
+  font-size: 1.75em;
+  font-weight: 300;
+  color: #0193e6;
+}
+
+#lot-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
